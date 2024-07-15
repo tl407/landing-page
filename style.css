@@ -41,9 +41,9 @@
 }
 
 .nav{
-    padding: 20px;
+    padding: 10px 110px 10px 110px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .logo{
