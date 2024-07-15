@@ -22,16 +22,22 @@
     font-size: 18px;
 
 }
-button {
+.img-text {
+    color: slategrey;
+    font-size: 16px;
+}
+.button-base {
     background-color: #3882F6;
     color: white;
     margin-top: 10px;
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
     font-weight: bold;
-    box-shadow: none;
-    outline: none;
-    border: none;
     border-radius: 5px;
+    border: none;
+
+}
+.border{    
+    border:2px solid #e5e7eb;
 }
 
 .nav{
@@ -75,4 +81,87 @@ a{
     font-weight: extra-bold;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-two {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.widget{
+    width: 150px;
+    justify-content: center;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+
+
+}
+.container-three{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+.quote-box {
+    width: 800px;
+    padding: 70px;
+
+}
+.quote {
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.author {
+    text-align: right;
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: bold;
+
+}
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.two-boxes{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 40px;
+}
+.action{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.sign-up{
+    font-size: 16px;
+    color: #e5e7eb;
+}
+.footer{
+    padding: 40px;
+    text-align: center;
+
 }
