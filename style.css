@@ -14,7 +14,8 @@
 .hero-text{
     font-size: 48px;
     font-weight: bold;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-bottom: 10px;
 
 }
 .secondary-text{
@@ -81,7 +82,7 @@ a{
     font-weight: extra-bold;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
